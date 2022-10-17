@@ -1,0 +1,26 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/.history": true
+  },
+  "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/.history": true
+  },
+  "files.watcherExclude": {
+      "**/.history": true
+  }
+}
